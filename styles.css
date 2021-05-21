@@ -1,0 +1,43 @@
+h1{
+    color: rgb(21, 255, 0);
+}
+.sfx{
+    top: 5%;
+    position:absolute;
+    left: 5%;
+    background-color: rgb(116, 17, 17);
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.sfx-bar{
+   
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+}
+input{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(90deg,#03a,#ffeb,#f44,#03a);
+    background-size: 600px;
+    cursor: pointer;
+ 
+}
+input:before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a,#ffeb,#f44,#03a);
+    background-size: 600px;
+    transition: 0.7s;
+
+}
+body{
+    background-color: black;
+    text-align: center;
+}
