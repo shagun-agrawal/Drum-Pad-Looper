@@ -13,7 +13,7 @@ h1{
 .sfx-bar{
    
     display: flex;
-    flex: 4;
+    flex: 3;
     flex-direction: column;
 }
 input{
